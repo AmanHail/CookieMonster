@@ -5,55 +5,7 @@ import java.util.Stack;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-/**
- * HONOR PLEDGE: All work here is honestly obtained and is my own.  Signed:  Aman Haileyesus
- * @author haileyesusa
- * Date of Completion:  4/5/2023
- * Assignment:  Cookie Monster Lab
- * 
- * Attribution: Leah Dorrien
- * 
- * General Description: Takes a 2d array of integers finds the optimal path from 
- *  the upper left corner (0,0) to the lower right corner
- *  (SIZE-1,SIZE-1) in a cookie array, avoiding any negative numbers.
- *  Prints all possible paths with the total number of cookies as well as the best path/cookies
- * 
- * Advanced:  I implemented a moveDown and moveRight method in my Location object in
- *  		  order to only use 1 position variable. To add locations to the paths, I created 
- *  		  a copy constructor in the Location object as well
- * 
- * Errata:  
- *
- */
 
-/**
- *  In this program Cookie Monster finds the optimal path from 
- *  the upper left corner (0,0) to the lower right corner
- *  (SIZE-1,SIZE-1) in a cookie array.  The elements of
- *  the array contain cookies (a non-negative number) or barrels
- *  (-1).  On each step Cookie Monster can only go down or
- *  to the right.  He is not allowed to step on barrels. 
- *  The optimal path contains the largest number of cookies.
- *   
- *  The program prompts the user for a file name,
- *  reads the cookie array from the file, and reports the
- *  number of cookies on the optimal path. Assumed size of the
- *  grid of values i 12 x 12, stored in row-major order.
- *  
- *  Bonus:  Adapt the program to read 2 ints from the file first
- *  representing numRows and numCols, and then read all values into
- *  a 2-d array.  (Consult FloodFill project for an example.)
- *  
- *  Bonus#2: Write a recursive solution that finds the optimal cookie
- *  total for the problem.   (For mega bonus, write a recursive solution
- *  that reports the Optimal Path formed with that total.)
- *  
- *  The program also reports the actual optimal path, location
- *  by location in effective formatting.
- *  
- *  Finally, the program will output every successful path found,
- *  along with the total cookies along that path.
- */
 
 public class CookieMonsterStarter
 {
